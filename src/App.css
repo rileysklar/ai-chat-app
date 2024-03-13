@@ -40,7 +40,7 @@ html {
   max-width: 75%;
   background-color: #3090f7;
   color: #fff;
-  padding: 12px;
+  padding: 8px 12px;
   border-radius: 20px;
 }
 
@@ -93,8 +93,8 @@ button {
   flex-direction: column;
   gap: 12px;
   overflow: scroll;
-  padding: 22px;
-  width: 100%;
+  padding: 0 20px;
+  width: 90%;
   height: 100%;
 }
 
@@ -144,6 +144,7 @@ img {
 
   .chat-content {
     padding: 0;
+    width: 100%;
   }
 
   .chat-content::-webkit-scrollbar {
@@ -170,6 +171,6 @@ img {
   }
 
   .header {
-    margin-top: 117px;
+    margin-top: 26px;
   }
 }
