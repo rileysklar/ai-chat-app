@@ -122,6 +122,17 @@ img {
   border-radius: 1000px;
 }
 
+@media only screen and (max-width: 426px) {
+  .phone {
+    background-image: none;
+    padding: 0;
+  }
+
+  .main-body {
+    height: 99dvh;
+  }
+}
+
 @media only screen and (max-width: 400px) {
   .input-form {
     padding-bottom: 40px;
