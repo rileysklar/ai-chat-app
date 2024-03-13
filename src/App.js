@@ -10,19 +10,19 @@ function App() {
     setUserInput(event.target.value);
   };
 
-  // const [backlogMessage, setBacklogMessage] = useState("")
-
   const fetchData = async (userMessage) => {
     try {
+      const historyForAPI = chatHistory.map((msg) => ({
+        role: msg.sender === "user" ? "user" : "assistant",
+        content: msg.content,
+      }));
+
       const response = await axios.post(
         "https://api.openai.com/v1/chat/completions",
         {
           model: "gpt-3.5-turbo",
           messages: [
-            {
-              role: "system",
-              content: "You are a helpful assistant.",
-            },
+            ...historyForAPI,
             {
               role: "user",
               content: userMessage,
