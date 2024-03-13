@@ -78,7 +78,7 @@ function App() {
               value={userInput}
               onChange={handleInputChange}
             />
-            <button type="submit"> ⬆ </button>
+            <button type="submit">Send</button>
           </form>
         </div>
       </div>

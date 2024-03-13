@@ -46,7 +46,7 @@ html {
 
 .input-form {
   padding-bottom: 22px;
-  width: 360px;
+  width: 400px;
   display: flex;
   justify-content: center;
 }
@@ -59,13 +59,18 @@ input.input-text {
   margin-top: 4px;
   max-width: 320px;
   background-color: transparent;
-  margin-left: 36px;
+  margin-left: 62px;
   width: 350px;
   padding-right: 40px;
+  font-size: 16px;
 }
 
 input:focus-visible {
   outline: none;
+}
+
+input::placeholder {
+  font-size: 16px;
 }
 
 button {
@@ -73,14 +78,13 @@ button {
   background-color: #3090f7;
   border: solid 1px #d2d5d9;
   color: #fff;
-  font-size: 15px;
+  font-size: 16px;
   position: relative;
-  left: -37px;
-  top: 5px;
+  left: -62px;
+  top: 7px;
   line-height: 4px;
   height: 31px;
   padding: 5px 10px;
-  padding-bottom: 1px;
   margin-top: px;
   cursor: pointer;
 }
@@ -131,19 +135,27 @@ img {
   .main-body {
     height: 99dvh;
   }
+
+  .chat-content {
+    padding: 0;
+  }
+
+  .input-form {
+    width: 460px;
+  }
 }
 
 @media only screen and (max-width: 400px) {
   .input-form {
     padding-bottom: 40px;
-    width: 320px;
+    width: 400px;
   }
 }
 
 @media only screen and (max-width: 374px) {
   .input-form {
     padding-bottom: 80px;
-    width: 320px;
+    width: 400px;
   }
 
   .header {
