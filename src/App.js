@@ -10,6 +10,8 @@ function App() {
     setUserInput(event.target.value);
   };
 
+  // const [backlogMessage, setBacklogMessage] = useState("")
+
   const fetchData = async (userMessage) => {
     try {
       const response = await axios.post(
@@ -19,7 +21,7 @@ function App() {
           messages: [
             {
               role: "system",
-              content: "You are a nice assistant.",
+              content: "You are a helpful assistant.",
             },
             {
               role: "user",
