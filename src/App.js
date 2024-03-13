@@ -90,7 +90,10 @@ function Header() {
   return (
     <div className="header">
       <div className="image>">
-        <img src="https://i.pravatar.cc/44" alt="user-image" />
+        <img
+          src="https://i.pravatar.cc/44"
+          alt="This is what the bot looks like right now"
+        />
       </div>
       <div className="name">OpenAI 💬</div>
     </div>
