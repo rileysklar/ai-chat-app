@@ -1,18 +1,15 @@
 import React, { useState } from "react";
 import axios from "axios";
-import OPENAI_API_KEY from "./config/openai";
 import "./App.css";
 
 function App() {
   const [userInput, setUserInput] = useState("");
   const [chatHistory, setChatHistory] = useState([]);
 
-  // Function to handle user input change
   const handleInputChange = (event) => {
     setUserInput(event.target.value);
   };
 
-  // Function to fetch data based on user input and update chat history
   const fetchData = async (userMessage) => {
     try {
       const response = await axios.post(
@@ -81,7 +78,6 @@ function App() {
             />
             <button type="submit"> ⬆ </button>
           </form>
-          {/* <p className="credit">rileysklar.io</p> */}
         </div>
       </div>
     </>
@@ -94,7 +90,7 @@ function Header() {
   return (
     <div className="header">
       <div className="image>">
-        <img src="https://i.pravatar.cc/44" />
+        <img src="https://i.pravatar.cc/44" alt="user-image" />
       </div>
       <div className="name">OpenAI 💬</div>
     </div>
