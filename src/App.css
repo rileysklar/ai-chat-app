@@ -46,7 +46,7 @@ html {
 
 .input-form {
   padding-bottom: 22px;
-  width: 400px;
+  width: 420px;
   display: flex;
   justify-content: center;
 }
@@ -129,10 +129,11 @@ img {
   .phone {
     background-image: none;
     padding: 0;
+    border-radius: 0;
   }
 
   .main-body {
-    height: 90dvh;
+    height: 95dvh;
   }
 
   .chat-content {
@@ -140,21 +141,22 @@ img {
   }
 
   .input-form {
-    width: 460px;
+    width: 480px;
+    padding-bottom: 0;
   }
 }
 
 @media only screen and (max-width: 400px) {
   .input-form {
-    padding-bottom: 40px;
-    width: 400px;
+    padding-bottom: 0;
+    width: 430px;
   }
 }
 
 @media only screen and (max-width: 374px) {
   .input-form {
-    padding-bottom: 80px;
-    width: 400px;
+    padding-bottom: 0px;
+    width: 390px;
   }
 
   .header {
