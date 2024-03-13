@@ -1,5 +1,7 @@
 # OpenAI Chat App - React 🤖💬
 
+[Visit the live site](https://open-ai-imessage-app.netlify.app)
+
 WOW! I am so excited about this one. I integrated the open AI API using React, Node.js and Axios to handle the HTTP requests.
 
 ## Features
