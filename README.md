@@ -1,6 +1,7 @@
 # OpenAI iMessage App - React 🤖💬
 
 [Visit the live site](https://open-ai-imessage-app.netlify.app)
+![OpenAI iMessage App - React](https://open-ai-imessage-app.netlify.app/preview.jpg)
 
 WOW! I am so excited about this one. I integrated the open AI API using React, Node.js and Axios to handle the HTTP requests.
 
