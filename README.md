@@ -1,4 +1,4 @@
-# OpenAI Chat App - React 🤖💬
+# OpenAI iMessage App - React 🤖💬
 
 [Visit the live site](https://open-ai-imessage-app.netlify.app)
 
